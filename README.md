@@ -1,2 +1,4 @@
 # Alterando-Status-De-Servico
-Alterando o status de atividade, iniciando e interrompendo serviços.
+
+Efetuando operações de atividade e inatividade de serviços do sistema.
+- Iniciando e interrompendo serviços usando o gerenciador de controle dos serviços do Windows.
