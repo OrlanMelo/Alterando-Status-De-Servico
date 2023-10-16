@@ -49,7 +49,7 @@ public:
 		{
 			DWORD BytesRetornados;
 
-			//Iremos chamar a função duas vezes, para alocar os bytes necessários para a segunda função e retornar com sucesso o serviço ativo.
+			//Iremos chamar a função duas vezes, para alocar os bytes necessários para a segunda função e retornar com sucesso o serviço ativo ou inativo.
 			QueryServiceStatusEx(Servico, SC_STATUS_PROCESS_INFO, 0, 0, &BytesRetornados);
 			QueryServiceStatusEx(Servico, SC_STATUS_PROCESS_INFO, (LPBYTE)&Status, BytesRetornados, &BytesRetornados);
 
